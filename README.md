@@ -1,92 +1,76 @@
-# Map Coloring using CSP and Backtracking
+# AI Programming Assignment 4 – CS2201
 
-This project implements the **Map Coloring Problem** using a **Constraint Satisfaction Problem (CSP)** approach with **Backtracking**.
-
-The goal is to assign colors to regions (states) such that no two neighboring states share the same color.
+This repository contains the code and documentation for **Programming Assignment 4** of the **CS-2201 (Artificial Intelligence)** course.
 
 ---
 
-## Problem Description
+## Assignment Questions
 
-Given:
-- A set of states (regions)
-- A list of neighboring states
-- A set of colors
-
-Objective:
-- Assign a color to each state
-- Ensure no adjacent states have the same color
+1. Implement the **Map Coloring problem** using CSP for the seven principal states and territories of Australia  
+2. Apply the **Map Coloring problem** to the 33 districts of Telangana  
+3. Implement the **Sudoku puzzle** using Constraint Satisfaction Problem (CSP) techniques  
+4. Implement the **Crypt-arithmetic puzzle** using CSP  
 
 ---
 
-## States
-- WA 
-- NT
-- Q
-- SA
-- NSW
-- V
-- T
+## Repository Overview
 
-  
----
-
-## Colors
-
-- Red
-- Green
-- Blue
+All implementations and related documentation are organized into separate folders corresponding to each question.
 
 ---
 
-## Constraints
+## Clone the Repository
 
-- Neighboring states must not have the same color.
-- Each state must be assigned exactly one color.
-
----
-
-## Approach
-
-This solution uses:
-
-### 1. Backtracking Algorithm
-- Assign colors recursively
-- If a conflict occurs, undo the assignment (backtrack)
-- Try the next possible color
-
-### 2. Validity Check
-- Before assigning a color, check if any neighbor already has the same color
+To clone this repository:
+- git clone https://github.com/jrsainandan/ai-assignment-4.git
 
 ---
 
+## Repository Structure
+
+### Q1 – Map Colouring (Australia)
+- Implementation of the Map Coloring problem for Australia  
+- Uses CSP techniques:
+  - Backtracking  
+  - Forward Checking  
+  - Constraint Propagation  
 
 ---
 
-## Example Input
-Enter state: WA
-Enter color: Red
+### Q2 – Map Colouring (Telangana)
+- Implementation for 33 districts of Telangana  
+- Adjacency relationships stored in a JSON file  
+- Separation of data and logic for better scalability  
 
 ---
 
-## Example Output
-WA : Red
-NT : Green
-Q : Red
-SA : Blue
-NSW : Green
-V : Red
-T : Red
+### Q3 – Sudoku Solver
+- Sudoku solver using CSP techniques  
+- Includes:
+  - CSP 
+  - Backtracking Search  
 
 ---
 
-## Key Concepts
+### Q4 – Crypt Arithmetic
+- Solves:  
+ - SEND + MORE = MONEY
 
-- Constraint Satisfaction Problems (CSP)
-- Backtracking Search
-- Recursive Algorithms
-- Graph Coloring
+- Uses CSP formulation with:
+  - AllDiff constraint  
+  - Column-wise arithmetic constraints  
 
 ---
 
-Name:j.reddy sai nandan
+## Author
+
+- **J.REDDY SAI NANDAN**  
+- Roll No: SE24UCSE223
+- Course: CS-2201 – Artificial Intelligence  
+
+---
+
+## Notes
+
+- Each folder contains the respective implementation and supporting files  
+- Code is modular and organized for clarity and reusability  
