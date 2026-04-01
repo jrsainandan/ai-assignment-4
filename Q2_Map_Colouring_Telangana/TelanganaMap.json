@@ -1,0 +1,27 @@
+{
+  "states": [
+    "Adilabad","KomaramBheem","Nirmal","Mancherial","Nizamabad","Kamareddy",
+    "Karimnagar","Peddapalli","Jagtial","RajannaSircilla","WarangalUrban",
+    "WarangalRural","Jangaon","Mahabubabad","BhadradriKothagudem","Khammam",
+    "Suryapet","Nalgonda","YadadriBhuvanagiri","MedchalMalkajgiri","Hyderabad",
+    "Rangareddy","Vikarabad","Sangareddy","Medak","Siddipet",
+    "JayashankarBhupalpally","Mulugu","Nagarkurnool","Wanaparthy",
+    "JogulambaGadwal","Narayanpet","Mahabubnagar"
+  ],
+  "edges": [
+    ["Adilabad","KomaramBheem"],
+    ["Adilabad","Nirmal"],
+    ["KomaramBheem","Mancherial"],
+    ["Nirmal","Nizamabad"],
+    ["Karimnagar","Peddapalli"],
+    ["WarangalUrban","WarangalRural"],
+    ["Khammam","Suryapet"],
+    ["Nalgonda","YadadriBhuvanagiri"],
+    ["Hyderabad","Rangareddy"],
+    ["Medak","Siddipet"],
+    ["Nagarkurnool","Wanaparthy"],
+    ["JogulambaGadwal","Narayanpet"],
+    ["Narayanpet","Mahabubnagar"]
+  ],
+  "colours": ["Red","Green","Blue","Yellow"]
+}
